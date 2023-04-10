@@ -18,7 +18,7 @@ body {
     color: var(--whiteBrown);
 }
 
-.outlined-text {
+.outlinedText {
     font-size: 2em;
     color: white;
     text-shadow:
