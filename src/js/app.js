@@ -1,11 +1,11 @@
-function testJs(event) {
-  if (event.key === 't') {
-    const bodyElement = document.querySelector('body');
-    const messageElement = document.createElement('span');
-    messageElement.textContent =
-      'I am connected and working Ryan. You may proceed';
-    bodyElement.appendChild(messageElement);
-  }
-}
+// Function to outline title text on the document
+document.addEventListener('DOMContentLoaded', () => {
+  const titleElements = document.querySelectorAll('.title');
 
-document.addEventListener('keydown', testJs);
+  titleElements.forEach(element => {
+    element.classList.add('outlinedText');
+  });
+});
+
+
+
