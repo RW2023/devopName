@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --darkestBrown: #8D7B68;
+    --darkBrown: #A4907C;
+    --lightBrown: #C8B6A6;
+    --whiteBrown: #F1DEC9;
+    font-family: 'Poppins', sans-serif;
+}
+
 /* CSS Reset */
 
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 /* End of CSS Reset */
 *,
 *::before,
