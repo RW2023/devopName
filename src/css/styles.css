@@ -89,4 +89,21 @@ body {
 }
 /* end grid styling  */
 
+.user-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+/* avatar handling */
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.user-name {
+    font-size: 1rem;
+}
 
