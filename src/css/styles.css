@@ -35,7 +35,32 @@ body {
     box-sizing: border-box;
 }
 
-.gridItem{
-    background-color: var(--black);
+.grid-container{
+    background-color: var(--lightBrown);
+    text-align: center;
+}
+
+.grid-item{
+    background-color: var(--whiteBrown);
+    color: var(--darkBrown);
+}
+
+.title{
+    padding: 1rem;
+    background-color: var(--lightBrown);
     color: var(--whiteBrown);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    background-color: var(--whiteBrown);
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5em;
 }
