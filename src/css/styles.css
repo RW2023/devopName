@@ -34,7 +34,7 @@ body {
 *::after {
     box-sizing: border-box;
 }
-
+/* Grid Styling */
 .grid-container{
     background-color: var(--lightBrown);
     text-align: center;
@@ -58,9 +58,35 @@ body {
     grid-gap: 10px;
 }
 
-.grid-item {
+.grid-item-1,
+.grid-item-2,
+.grid-item-3,
+.grid-item-4,
+.grid-item-5,
+.grid-item-6 {
     background-color: var(--whiteBrown);
     padding: 1rem;
     text-align: center;
     font-size: 1.5em;
+    border-radius: 4px;
+    /* Add this line to make the corners rounded */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Add this line to create a shadow */
+    transition: all 0.3s ease;
+    /* Add this line for smooth transition */
 }
+
+.grid-item-1:hover,
+.grid-item-2:hover,
+.grid-item-3:hover,
+.grid-item-4:hover,
+.grid-item-5:hover,
+.grid-item-6:hover {
+    transform: translateY(-10px);
+    /* Add this line to move the item up on hover */
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.2);
+    /* Add this line to create a bigger shadow on hover */
+}
+/* end grid styling  */
+
+
