@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
-    --darkestBrown: #8D7B68;
-    --darkBrown: #A4907C;
-    --lightBrown: #C8B6A6;
-    --whiteBrown: #F1DEC9;
+    --black: #1A120B;
+    --darkBrown: #3C2A21;
+    --lightBrown: #D5CEA3;
+    --whiteBrown: #E5E5CB;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -14,13 +14,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--darkestBrown);
+    background-color: var(--darkBrown);
     color: var(--whiteBrown);
 }
 
 .outlinedText {
     font-size: 2em;
-    color: white;
+    color: var(--whiteBrown);
     text-shadow:
         -1px -1px 0 #000,
         1px -1px 0 #000,
@@ -33,4 +33,9 @@ body {
 *::before,
 *::after {
     box-sizing: border-box;
+}
+
+.gridItem{
+    background-color: var(--black);
+    color: var(--whiteBrown);
 }
